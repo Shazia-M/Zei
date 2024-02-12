@@ -1,0 +1,135 @@
+.navbar{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5rem 2rem 2rem 2rem;
+}
+
+span{
+    font-family: sans-serif;
+    font-size: 2rem;
+    columns: #234323;
+}
+
+.icon{
+    height: 3.9 rem;
+    margin: 0rem 2rem 0rem 2rem;
+    font-size: large;
+    color: #fff;
+}
+
+span{
+    color: #234323;
+    font-size: 2rem;
+}
+
+.logo{
+    height: 3.5rem;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product-img{
+    width: 15rem;
+    height: 20rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 1rem 0.05rem #000;
+    margin: 0rem 1.25rem 2rem 1.25rem;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.a{
+    width: 16.5rem;
+}
+
+.b{
+    height: 19rem;
+}
+
+.d{
+    height: 18rem;
+    width: 14rem;
+}
+
+.e{
+    width: 14rem;
+}
+
+.h{
+    height: 18rem;
+    width: 13.5rem;
+}
+
+.i{
+    width: 14.5rem;
+}
+
+@media(min-width:675px){
+    h2{
+        font-size: 1.5rem;
+    }
+    .discount{
+        font-size: 1.5rem;
+    }
+    .price-value{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width:675px){
+    .product-img{
+        height: 11.5rem;
+        width: 8.5rem;
+    }
+
+    span{
+        font-size: 1rem;
+    }
+
+    .a{
+        height: 11rem;
+    }
+
+    .b{
+        height: 11rem;
+    }
+
+    .c{
+        height: 11rem;
+    }
+
+    .d{
+        width: 9rem;
+    }
+
+    .f{
+        height: 12rem;
+        width: 9rem;
+    }
+
+    .navbar{
+        margin-right: 0;
+        span{
+            font-size: 1.5rem;
+        }
+        .logo{
+            height: 2.5rem;
+        }
+    }
+}
