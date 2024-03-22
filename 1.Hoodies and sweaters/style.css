@@ -42,7 +42,7 @@ span{
     height: 20rem;
     border-radius: 1rem;
     /* box-shadow: 0px 0px 1rem 0.05rem #000; */
-    margin: 0rem 1.25rem 4rem 1.25rem;
+    margin: 0rem 1.25rem 5.5rem 1.25rem;
 
     p{
         font-size: medium;
@@ -77,7 +77,7 @@ span{
     color: #234323;
     font-weight: 700;
     font-size: 0.75rem;
-    margin-left: 0.25rem;
+    margin-left: 75%;
 }
 
 .a{
