@@ -8,8 +8,8 @@
 }
 
 span{
-    font-family: sans-serif;
-    font-size: 2rem;
+    /* font-family: sans-serif; */
+    font-size: 1.5rem;
     columns: #234323;
 }
 
@@ -45,12 +45,13 @@ span{
     margin: 0rem 1.25rem 4rem 1.25rem;
 
     p{
-        font-size: 0.75rem;
+        font-size: 1rem;
         width: 100%;
         margin-top: 0.25rem;
         margin-bottom: 0.25rem;
         margin-right: 0.5rem;
         width: 90%;
+        color: #234323;
     }
 }
 
@@ -120,6 +121,10 @@ span{
     p{
         font-size: 1.25rem;
     }
+
+    .price-value{
+        font-size: 1rem;
+    }
 }
 
 @media(max-width:675px){
@@ -129,7 +134,7 @@ span{
     }
 
     span{
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 
     .a{
@@ -162,4 +167,9 @@ span{
             height: 2.5rem;
         }
     }
+    .product-img{
+        p{
+            font-size: 0.75rem;
+        }
+    }   
 }
