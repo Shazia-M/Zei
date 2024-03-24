@@ -52,6 +52,31 @@
     animation: move-desc 1s ease-in 0.25s 1;
 }
 
+.product-details{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    color: #234323;
+    margin: 1.5rem 0rem 1.5rem 2.5rem;
+
+    .detail{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0.25rem;
+
+        .type{
+            font-weight: 600;
+            margin-right: 2.5rem;
+        }
+    }
+}
+
 .heading{
     display: flex;
     justify-content: center;
@@ -121,6 +146,9 @@ a{
     p{
         font-size: 1.25rem;
     }
+    .product-details{
+        width: 50%;
+    }
 }
 
 @media(max-width:675px){
@@ -133,7 +161,7 @@ a{
     }
 }
 
-@keyframes move-img{
+/* @keyframes move-img{
     from{opacity: 0.25;  }
     to{ opacity: 1;}
 }
@@ -141,4 +169,4 @@ a{
 @keyframes move-desc{
     from{opacity: 0.25; }
     to{ opacity: 1; }
-}
+} */
