@@ -135,6 +135,16 @@ a{
 }
 
 @media(max-width:675px){
+
+    .banner{
+        height: 5rem;
+    }
+
+    .banner-img{
+        height: 40%;
+        width: 1%;
+    }
+
     .product-img{
         height: 12rem;
         width: 8rem;
