@@ -148,14 +148,14 @@ a{
 
 @media(max-width:675px){
 
-    .banner{
+    /* .banner{
         height: 8rem;
     }
 
-    /* .banner-img{
+    .banner-img{
         height: 40%;
         width: 1%;
-    } */
+    }
 
     .one{
         height: 50%;
@@ -163,7 +163,7 @@ a{
     
     .two{
         height: 100%;
-    }
+    } */
 
     .product-img{
         height: 12rem;
@@ -217,9 +217,9 @@ a{
     .products>a{
         font-size: 1.5rem;
     }
-    .checkbox-main-icon{
+    /* .checkbox-main-icon{
         font-size: 0.75rem;
         left: 5%;
         top: 12%;
-    }
+    } */
 }
