@@ -149,12 +149,20 @@ a{
 @media(max-width:675px){
 
     .banner{
-        height: 5rem;
+        height: 8rem;
     }
 
-    .banner-img{
+    /* .banner-img{
         height: 40%;
         width: 1%;
+    } */
+
+    .one{
+        height: 50%;
+    }
+    
+    .two{
+        height: 100%;
     }
 
     .product-img{
@@ -212,6 +220,6 @@ a{
     .checkbox-main-icon{
         font-size: 0.75rem;
         left: 5%;
-        top: 7%;
+        top: 12%;
     }
 }
