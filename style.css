@@ -1,5 +1,5 @@
 .banner{
-    height: 11rem;
+    height: 15rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
 
 .checkbox-main-icon{
     position: absolute;
-    top: 5.2rem;
+    top: 7.2rem;
     font-size: 2rem;
     color: #234323;
     left: 2.5%;
@@ -87,7 +87,7 @@ a{
     /* font-family: sans-serif; */
     color: #234323;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .products{
