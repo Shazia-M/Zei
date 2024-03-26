@@ -152,10 +152,10 @@ a{
         height: 8rem;
     }
 
-    .banner-img{
+    /* .banner-img{
         height: 40%;
         width: 1%;
-    }
+    } */
 
     .one{
         height: 50%;
@@ -218,9 +218,9 @@ a{
         font-size: 1.5rem;
     }
     .checkbox-main-icon{
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         left: 5%;
-        top: 12%;
+        top: 7%;
     }
 
 }
