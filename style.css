@@ -141,6 +141,22 @@ a{
     width: 14rem;
 }
 
+.a3{
+    width: 16.5rem;
+}
+
+.b3{
+    height: 25rem;
+}
+
+.h3{
+    height: 24.5rem;
+}
+
+.i3{
+    height: 25rem;
+}
+
 #options:checked ~ .sidebar_menu{
     transition: 0.2s ease-in;
     left: 1%;
@@ -200,6 +216,27 @@ a{
 
     .c2{
         display: none;
+    }
+
+    .b3{
+        display: none;
+    }
+
+    .e3{
+        display: none;
+    }
+
+    .h3{
+        display: none;
+    }
+
+    .a3{
+        height: 11rem;
+    }
+
+
+    .i3{
+        height: 15.5rem;
     }
 
     .heading{
