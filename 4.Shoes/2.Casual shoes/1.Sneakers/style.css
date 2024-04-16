@@ -1,0 +1,204 @@
+.navbar{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+span{
+    /* font-family: sans-serif; */
+    font-size: 2rem;
+    color: #234323;
+}
+
+.icon{
+    height: 3.9 rem;
+    margin: 0rem 2rem 0rem 2rem;
+    font-size: large;
+    color: #fff;
+}
+
+span{
+    color: #234323;
+    font-size: 2rem;
+}
+
+.logo{
+    height: 3.5rem;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product-img{
+    /* width: 15rem; */
+    height: 15rem;
+    border-radius: 1rem;
+    /* box-shadow: 0px 0px 1rem 0.05rem #000; */
+    margin: 0rem 1.25rem 4.5rem 1.25rem;
+
+    p{
+        font-size: 1rem;
+        width: 100%;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        margin-right: 0.5rem;
+        width: 90%;
+        color: #234323;
+    }
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-value{
+    color: #234323;
+    font-weight: 700;
+    font-size: 0.75rem;
+    /* margin-left: 75%; */
+}
+
+.a{
+    height: 28rem;
+}
+
+.b{
+    height: 12rem;
+}
+
+.f{
+    width: 15rem;
+}
+
+.g{
+    height: 19rem;
+    width: 15rem;
+}
+
+.h{
+    height: 18rem;
+}
+
+.i{
+    height: 18rem;
+}
+
+.k1{
+    height: 21rem;
+}
+
+.l1{
+    height: 21rem;
+}
+
+.n1{
+    height: 21rem;
+}
+
+@media(min-width:675px){
+    h2{
+        font-size: 1.5rem;
+    }
+    .discount{
+        font-size: 1.5rem;
+    }
+    .price-value{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+
+    .price-value{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:675px){
+    .product-img{
+        height: 6rem;
+        width: 11rem;
+    }
+
+    .navbar{
+        margin-right: 0rem;
+    }
+    span{
+        font-size: 1.75rem;
+    }
+
+    .logo{
+        height: 2.75rem;
+    }
+
+    .a{
+        height: 12rem;
+        width: 6rem;
+    }
+
+    .f{
+        width: 6rem;
+    }
+
+    .g{
+        height: 8rem;
+        width: 6rem;
+    }
+
+    .h{
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .i{
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .j{
+        height: 7rem;
+        width: 10rem;
+    }
+
+    .k1{
+        height: 9rem;
+        width: 16rem;
+    }
+
+    .l1{
+        height: 9rem;
+        width: 16rem;
+    }
+
+    .m1{
+        height: 9rem;
+        width: 16rem;
+    }
+
+    .n1{
+        height: 9rem;
+        width: 16rem;
+    }
+    
+    .product-img{
+        p{
+            font-size: 0.75rem;
+        }
+    } 
+}
