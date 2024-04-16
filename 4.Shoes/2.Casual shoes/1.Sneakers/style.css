@@ -133,7 +133,7 @@ span{
 @media(max-width:675px){
     .product-img{
         height: 6rem;
-        width: 12rem;
+        width: 11rem;
         margin-left: 2.5%;
         margin-right: 2.5%;
     }
