@@ -133,7 +133,9 @@ span{
 @media(max-width:675px){
     .product-img{
         height: 6rem;
-        width: 11rem;
+        width: 12rem;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 
     .navbar{
@@ -148,52 +150,33 @@ span{
     }
 
     .a{
-        height: 12rem;
-        width: 6rem;
+        height: 18rem;
+    }
+
+    .b{
+        height: 5.5rem;
     }
 
     .f{
-        width: 6rem;
+        height: 8rem;
+        width: 8rem;
     }
 
     .g{
-        height: 8rem;
-        width: 6rem;
+        height: 9rem;
+        width: 7rem;
     }
 
     .h{
-        height: 9rem;
-        width: 9rem;
+        height: 9.5rem;
     }
 
     .i{
-        height: 9rem;
-        width: 9rem;
+        height: 10rem;
     }
 
     .j{
-        height: 7rem;
-        width: 10rem;
-    }
-
-    .k1{
-        height: 9rem;
-        width: 16rem;
-    }
-
-    .l1{
-        height: 9rem;
-        width: 16rem;
-    }
-
-    .m1{
-        height: 9rem;
-        width: 16rem;
-    }
-
-    .n1{
-        height: 9rem;
-        width: 16rem;
+        height: 8rem;
     }
     
     .product-img{
