@@ -118,6 +118,7 @@ span{
 
     .a{
         height: 6rem;
+        width: 9.75rem;
     }
 
     .e{
@@ -130,23 +131,23 @@ span{
     }
 
     .g{
-        height: 7.5rem;
+        height: 6.5rem;
         width: 10rem;
     }
 
     .h{
-        height: 7rem;
-        width:12.25rem;
+        height: 5.5rem;
+        width:9rem;
     }
 
     .i{
-        height: 7rem;
-        width:12.25rem;
+        height: 5.6rem;
+        width:9rem;
     }
 
     .j{
         height: 7rem;
-        width:12.25rem;
+        width:12rem;
     }
     
     .product-img{
