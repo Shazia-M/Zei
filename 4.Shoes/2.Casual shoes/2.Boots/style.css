@@ -38,8 +38,7 @@ span{
     justify-content: space-evenly;
 }
 .product-img{
-    width: 15rem;
-    height: 20rem;
+    height: 18rem;
     border-radius: 1rem;
     /* box-shadow: 0px 0px 1rem 0.05rem #000; */
     margin: 0rem 1.25rem 4.5rem 1.25rem;
@@ -74,50 +73,10 @@ span{
     /* margin-left: 75%; */
 }
 
-.a{
-    height: 24rem;
-    width: 16.5rem;
-}
-
-.b{
-    height: 19.5rem;
-}
-
 .c{
-    width: 20rem;
+    width: 17rem;
 }
 
-
-.d{
-    width: 14rem;
-}
-
-.e{
-    height: 25.5rem;
-}
-
-.f{
-    height: 22rem;
-    width: 14.5rem;
-}
-
-
-.g{
-    height: 17rem;
-}
-
-.h{
-    height: 24rem;
-}
-
-
-.i{
-    width: 14rem;
-}
-
-.j{
-    height: 16rem;
-}
 
 @media(min-width:675px){
     h2{
@@ -140,8 +99,10 @@ span{
 
 @media(max-width:675px){
     .product-img{
-        height: 12rem;
-        width: 8rem;
+        height: 8.5rem;
+        width: 8.5rem;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
     }
 
     .navbar{
@@ -156,46 +117,36 @@ span{
     }
 
     .a{
-        height: 14rem;
-        width: 10rem;
-    }
-
-    .b{
-        height: 11rem;
-    }
-
-    .c{
-        height: 11rem;
-        width: 11rem;
+        height: 6rem;
     }
 
     .e{
-        height: 14.5rem;
-        width: 8.6rem;
+        width: 11.5rem;
     }
 
     .f{
-        height: 12.5rem;
+        width: 7.5rem;
+        height: 7.5rem;
     }
 
     .g{
-        height: 10rem;
-        width: 9rem;
+        height: 7.5rem;
+        width: 10rem;
     }
 
     .h{
-        height: 14rem;
-        width: 9rem;
+        height: 7rem;
+        width:12.25rem;
     }
 
     .i{
-        height: 14rem;
-        width: 9rem;
+        height: 7rem;
+        width:12.25rem;
     }
 
     .j{
-        height: 10rem;
-        width: 9rem;
+        height: 7rem;
+        width:12.25rem;
     }
     
     .product-img{
