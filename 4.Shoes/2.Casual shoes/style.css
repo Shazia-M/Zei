@@ -38,7 +38,7 @@ a{
 
 .products{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-wrap: nowrap;
 }
@@ -65,6 +65,16 @@ a{
 
 @media(max-width:675px){
 
+    .navbar{
+        margin-right: 0;
+        span{
+            font-size: 1.5rem;
+        }
+        .logo{
+            height: 2.5rem;
+        }
+    }
+
     .banner{
         height: 8rem;
     }
@@ -77,6 +87,7 @@ a{
         overflow-y: hidden;
         max-height: 16rem;
         flex-wrap: nowrap;
+        overflow-x: visible;
     }
     
     .products::-webkit-scrollbar{
