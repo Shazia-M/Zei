@@ -121,7 +121,7 @@ a{
 } */
 
 .space{
-    height: 10rem;
+    height: 5rem;
 }
 
 #options:checked ~ .sidebar_menu{
