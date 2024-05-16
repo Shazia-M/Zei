@@ -120,13 +120,25 @@ a{
     width: 20rem;
 } */
 
-.space{
+/* .space{
     height: 2.5rem;
-}
+} */
 
 #options:checked ~ .sidebar_menu{
     transition: 0.2s ease-in;
     left: 1%;
+}
+
+.connect{
+    display: flex;
+    margin-bottom: 3rem;
+    p{
+        font-size: 1.5rem;
+    }
+
+    a{
+        font-size: 1.25rem;
+    }
 }
 
 @media(max-width:675px){
