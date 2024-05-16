@@ -48,13 +48,13 @@
     left: -25rem;
     width: 20rem;
     height: 40rem;
-    background-color: #234323;
+    background-color: #8f9f8f;
     opacity: 0.95;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-    box-shadow: 0px 0px 1rem 0.05rem #234323;
+    box-shadow: 0px 0px 1rem 0.05rem #4c664c;
 }
 
 .sidebar_menu-headline{
@@ -204,7 +204,7 @@ a{
 
     .sidebar_menu-option{
         font-size: 1rem;
-        margin-bottom: 0.75rem;
+        margin-bottom: 1.5rem;
     }
     
     .banner-img{
