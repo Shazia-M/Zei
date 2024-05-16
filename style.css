@@ -243,5 +243,11 @@ a{
             margin: 0;
         }
     }
+    .platforms{
+        a{
+           font-size: 1rem;
+           margin-left: 0.5rem;
+    }
+    }
 
 }
