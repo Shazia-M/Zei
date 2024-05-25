@@ -131,6 +131,8 @@ a{
 
 .connect{
     display: flex;
+    align-items: center;
+    justify-content:center;
     p{
         font-size: 1.25rem;
     }
@@ -138,6 +140,8 @@ a{
 
 .platforms{
     display: flex;
+    align-items: center;
+    justify-content:center;
     a{
         font-size: 1.5rem;
         margin-left: 0.5rem;
@@ -242,6 +246,12 @@ a{
             font-size: 0.75rem;
             margin: 0;
         }
+    }
+    .platforms{
+        a{
+           font-size: 1rem;
+           margin-left: 0.5rem;
+    }
     }
 
 }
